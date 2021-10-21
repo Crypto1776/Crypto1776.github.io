@@ -5,6 +5,10 @@ import Zoom from "../../snowpack/pkg/react-reveal/Zoom.js";
 import {useState} from "../../snowpack/pkg/react.js";
 import ModalVideo from "../../snowpack/pkg/react-modal-video.js";
 import {FaWhatsapp} from "../../snowpack/pkg/react-icons/fa.js";
+import {FaFacebookF} from "../../snowpack/pkg/react-icons/fa.js";
+import {FaInstagramSquare} from "../../snowpack/pkg/react-icons/fa.js";
+import {FaYoutubeSquare} from "../../snowpack/pkg/react-icons/fa.js";
+import {FaTelegramPlane} from "../../snowpack/pkg/react-icons/fa.js";
 const Ihub = () => {
   const conferenceArray = [
     {
@@ -89,20 +93,50 @@ const Ihub = () => {
     href: "https://join.heliumtrack.app/luisfreire20",
     target: "_blank"
   }, "Inscribirme")), /* @__PURE__ */ React.createElement("div", {
-    className: "center-content py-3 mt-10 bg-red-100 rounded p-2"
+    className: "center-content py-3 mt-10  rounded p-2 w-full"
   }, /* @__PURE__ */ React.createElement("h3", {
-    className: "text-black"
-  }, "Si tienes mas preguntas puedes escribirnos a nuestro TELEGRAM y WhatsApp"), /* @__PURE__ */ React.createElement("div", {
-    className: "grid md:grid-cols-2 justify-items-center items-center mt-8"
-  }, /* @__PURE__ */ React.createElement("a", {
-    className: "rounded-xl  bg-blue-700 p-1 text-center text-white  md:p-6  md:text-4xl",
+    className: "text-white text-3xl text-center"
+  }, "Si tienes mas preguntas puedes escribirnos."), /* @__PURE__ */ React.createElement("div", {
+    className: "grid md:grid-cols-2 justify-items-center items-center mt-8 w-full "
+  }, /* @__PURE__ */ React.createElement("div", {
+    className: " text-center center-content items-center w-full telegram"
+  }, /* @__PURE__ */ React.createElement("h5", null, "Telegram"), /* @__PURE__ */ React.createElement("a", {
+    className: "rounded-xl",
     href: "https://t.me/DiFiIoTLatinoamerica",
     target: "_blank"
-  }, "Telegram"), /* @__PURE__ */ React.createElement("a", {
+  }, /* @__PURE__ */ React.createElement(FaTelegramPlane, {
+    className: "text-5xl rounded  mt-5"
+  }))), /* @__PURE__ */ React.createElement("div", {
+    className: "bg-green-200  text-center center-content items-center w-full mt-10 md:mt-0 whatsapp"
+  }, /* @__PURE__ */ React.createElement("h5", null, "WhatsApp"), /* @__PURE__ */ React.createElement("a", {
     href: "https://wa.me/593990070789?text=Necesito%20más%20información.",
     target: "_blank"
-  }, " ", /* @__PURE__ */ React.createElement(FaWhatsapp, {
+  }, /* @__PURE__ */ React.createElement(FaWhatsapp, {
     className: "text-5xl mt-5 rounded twitch"
+  }))))), /* @__PURE__ */ React.createElement("div", {
+    className: "content-center bg-red-100"
+  }, /* @__PURE__ */ React.createElement("h3", {
+    className: "text-black text-center"
+  }, "Siguenos en nuestras Redes Sociales"), /* @__PURE__ */ React.createElement("div", {
+    className: "grid md:grid-cols-3 gap-4 justify-items-center items-center mt-8"
+  }, /* @__PURE__ */ React.createElement("a", {
+    href: "https://www.youtube.com/channel/UCC5jKLTWSIHgRWN6tyKyw5g",
+    target: "_blank",
+    rel: "noreferrer"
+  }, /* @__PURE__ */ React.createElement(FaYoutubeSquare, {
+    className: "text-5xl rounded youtube"
+  })), /* @__PURE__ */ React.createElement("a", {
+    href: "https://www.facebook.com/profile.php?id=100071847725078",
+    target: "_blank",
+    rel: "noreferrer"
+  }, /* @__PURE__ */ React.createElement(FaFacebookF, {
+    className: "text-5xl rounded facebook"
+  })), /* @__PURE__ */ React.createElement("a", {
+    href: "https://instagram.com/difi_iot?utm_medium=copy_link",
+    target: "_blank",
+    rel: "noreferrer"
+  }, /* @__PURE__ */ React.createElement(FaInstagramSquare, {
+    className: "text-5xl rounded instagram"
   })))))))));
 };
 const video = () => {

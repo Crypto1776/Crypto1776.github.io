@@ -686,6 +686,9 @@ video {
 .flex-col {
 	flex-direction: column;
 }
+.content-center {
+	align-content: center;
+}
 .items-center {
 	align-items: center;
 }
@@ -697,6 +700,9 @@ video {
 }
 .justify-items-center {
 	justify-items: center;
+}
+.gap-4 {
+	gap: 1rem;
 }
 .rounded-lg {
 	border-radius: 0.5rem;
@@ -752,10 +758,6 @@ video {
 	--tw-bg-opacity: 1;
 	background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
 }
-.bg-blue-700 {
-	--tw-bg-opacity: 1;
-	background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
-}
 .bg-blue-500 {
 	--tw-bg-opacity: 1;
 	background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
@@ -787,9 +789,6 @@ video {
 }
 .p-2 {
 	padding: 0.5rem;
-}
-.p-1 {
-	padding: 0.25rem;
 }
 .p-3 {
 	padding: 0.75rem;
@@ -974,6 +973,10 @@ video {
 		margin-bottom: 0px;
 	}
 
+	.md\:mt-0 {
+		margin-top: 0px;
+	}
+
 	.md\:block {
 		display: block;
 	}
@@ -1004,6 +1007,10 @@ video {
 
 	.md\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.md\:grid-cols-3 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
 	.md\:flex-row {
@@ -1332,4 +1339,23 @@ video {
 }
 .tarjetas-supscripcion{
     box-shadow: 7px 10px 3px red;
+}
+
+.telegram{
+    background-color: #0088CC;
+}
+.whatsapp{
+    background-color: #4FCE5D;
+}
+.facebook{
+    background-color: #3B5998;
+    color: white;
+}
+.youtube{
+    background-color: #C4302B ;
+    color: white;
+}
+.instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); ;
+    background-color: white;
 }
