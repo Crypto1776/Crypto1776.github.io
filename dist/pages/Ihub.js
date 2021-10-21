@@ -93,7 +93,7 @@ const Ihub = () => {
   }, /* @__PURE__ */ React.createElement("h3", {
     className: "text-black"
   }, "Si tienes mas preguntas puedes escribirnos a nuestro TELEGRAM y WhatsApp"), /* @__PURE__ */ React.createElement("div", {
-    className: "grid grid-cols-2 justify-items-center items-center mt-8"
+    className: "grid md:grid-cols-2 justify-items-center items-center mt-8"
   }, /* @__PURE__ */ React.createElement("a", {
     className: "rounded-xl  bg-blue-700 p-1 text-center text-white  md:p-6  md:text-4xl",
     href: "https://t.me/DiFiIoTLatinoamerica",
@@ -102,7 +102,7 @@ const Ihub = () => {
     href: "https://wa.me/593990070789?text=Necesito%20más%20información.",
     target: "_blank"
   }, " ", /* @__PURE__ */ React.createElement(FaWhatsapp, {
-    className: "text-5xl rounded twitch"
+    className: "text-5xl mt-5 rounded twitch"
   })))))))));
 };
 const video = () => {
