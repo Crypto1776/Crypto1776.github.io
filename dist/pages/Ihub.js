@@ -14,12 +14,12 @@ const Ihub = () => {
     {
       numero: 1,
       pregunta: "¿Qué  es iHUB GLOBAL?",
-      texto: "iHUB GLOBAL es la empresa más importante a nivel global en distribución gratuita de hotspots de Helium Network. Si, leíste bien, es gratuita."
+      texto: "iHUB GLOBAL es la empresa más importante a nivel global en distribución de hotspots de la Red Helium."
     },
     {
       numero: 2,
       pregunta: "¿Cuál es el precio?",
-      texto: "Dicha distribución la hace 100% sin costo en el mundo entero a toda persona interesada en tener y hospedar un dispositivo hotspot"
+      texto: "Dicha distribución la hace con un costo de $100 por dispositivo, mas el costo del envio."
     },
     {
       numero: 3,
@@ -29,7 +29,7 @@ const Ihub = () => {
     {
       numero: 4,
       pregunta: "¿Puedo invitar a más personas?",
-      texto: "Cualquier persona que haga su registro y solicite su hotspot gratuito, puede participar de un programa de recompensas por dar a conocer e invitar personas a que soliciten su propio hotspot gratuito. Dichas recompensas provienen de un porcentaje de las criptomonedas Helium generadas por los hotspots de sus invitados. Si lo que has leído hasta este momento llama tú atención espera a conocer los detalles. Contáctame para brindarte más información sobre cómo puedes beneficiarte de esta tecnología."
+      texto: "Cualquier persona que haga su registro y solicite su hotspot, puede participar de un programa de recompensas por dar a conocer e invitar personas a que soliciten su propio hotspot. Dichas recompensas provienen de un porcentaje de las criptomonedas Helium generadas por los hotspots de sus invitados. Si lo que has leído hasta este momento llama tú atención espera a conocer los detalles. Contáctame para brindarte más información sobre cómo puedes beneficiarte de esta tecnología."
     }
   ];
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h1", {
@@ -52,7 +52,7 @@ const Ihub = () => {
     className: "bg-1 text-white pt-10 pb-10"
   }, /* @__PURE__ */ React.createElement("h1", {
     className: " text-4xl  text-center"
-  }, "iHUB GLOBAL es la empresa más importante a nivel global en distribución gratuita Minador hotspots de crypto Helium Network. Si, leíste bien, es GRATUITA")))), /* @__PURE__ */ React.createElement("div", {
+  }, "iHUB GLOBAL es la empresa más importante a nivel global en distribución de Minador hotspots de crypto de la Red de Helium.")))), /* @__PURE__ */ React.createElement("div", {
     className: "px-2 p-5 shadow-sm rounded-3xl text-white"
   }, /* @__PURE__ */ React.createElement("h2", {
     className: "px-3 text-yellow-700 text-2xl text-center"
@@ -72,13 +72,7 @@ const Ihub = () => {
     className: "px-2 bg-white pb-8"
   }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", {
     className: "pregunta-1 text-4xl md:text-6xl py-6 text-center"
-  }, "¿Mas preguntas?")), /* @__PURE__ */ React.createElement(LightSpeed, {
-    right: true
-  }, /* @__PURE__ */ React.createElement("div", {
-    className: "center-content text-center"
-  }, /* @__PURE__ */ React.createElement("h2", {
-    className: "text-xl md:text-3xl"
-  }, "Mira el siguiente video."), /* @__PURE__ */ React.createElement("div", null, video()))))), /* @__PURE__ */ React.createElement(Zoom, {
+  }, "¿Mas preguntas?")))), /* @__PURE__ */ React.createElement(Zoom, {
     right: true
   }, /* @__PURE__ */ React.createElement("div", {
     className: "py-5"
